@@ -8,9 +8,9 @@ use Illuminate\Http\Request;
 class MainClientController extends Controller
 {
     public function index(){
-        return view('client.main.index');
+        return view('client.pages.main.index');
     }
     public function order(){
-        return view('client.order.index');
+        return view('client.pages.order.index');
     }
 }

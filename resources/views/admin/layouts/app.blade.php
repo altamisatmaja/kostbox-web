@@ -7,7 +7,7 @@
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
     <meta name="robots" content="noindex" />
-    <title>Kosbox | @yield('title')</title>
+    <title>Kosbox | @yield('name')</title>
     <meta name="description"
         content="Vuexy is the best bootstrap 5 dashboard for responsive web apps. Streamline your app development process with ease." />
     <!-- Canonical SEO -->
@@ -46,6 +46,7 @@
         <div class="drag-target"></div>
     </div>
     @include('admin.layouts.script')
+    @stack('script')
 </body>
 
 </html>
